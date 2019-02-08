@@ -6,3 +6,4 @@ Command line app to convert Maya 2017 ASCII (`.ma`) files to Scalable Vector Gra
   * The shape node's parent name is used as the id of the `<path>`  
 
 As SVG's have their origin in the upper right corner of the viewport it is recommended that you set maya to `Z` up and then create curves in the positive `X`&`Y` space.
+Translations are ignored so either create curves by only moving control points or freeze transformations before saving the file.
